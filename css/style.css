@@ -47,7 +47,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     padding: 14px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     border-radius: 4px;
     margin-top: 15px;
 
@@ -91,7 +91,7 @@ body {
     justify-content: space-evenly;
     padding: 14px;
     border-radius: 4px;
-    margin-top: 40px;
+    margin-top: 20px;
 
 }
 
