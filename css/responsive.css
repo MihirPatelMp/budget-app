@@ -122,16 +122,20 @@
     .lower-container-header {
         width: 100%;
         margin-top: 50px;
-        margin-bottom: 20px;
-        font-size: 1rem;
+        margin-bottom: 25px;
+        font-size: 1.1rem;
 
     }
 
     .lower-container .list-item {
         width: 200px;
         text-align: center;
-        font-size: 0.8rem;
+        font-size: 1rem;
         font-weight: 600;
+    }
+
+    .expense {
+        margin-bottom: 20px;
     }
 
     .expense-item {
