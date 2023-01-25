@@ -1,0 +1,155 @@
+@media only screen and (max-width: 904px) {
+    body {
+        padding: 10px 20px;
+    }
+
+    .primary-heading {
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .main-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-container {
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .budget-container {
+        height: 150px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .budget-feedback,
+    .expense-feedback {
+        font-size: 0.8rem;
+    }
+
+    .budget-container label {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .budget-container input {
+        padding: 6px;
+        margin: 8px 0;
+        font-size: 0.8rem;
+
+    }
+
+    .budget-container button {
+        width: 90px;
+        padding: 6px;
+        font-size: 1rem;
+    }
+
+    #expense-container {
+        height: 240px;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    #expense-container label {
+        font-size: 1rem;
+    }
+
+    #expense-container input {
+        padding: 6px;
+        margin: 8px 0;
+        font-size: 0.8rem;
+    }
+
+    #expense-container button {
+
+        width: 40%;
+        padding: 6px;
+        font-size: 1rem;
+
+    }
+
+    .right-container {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .right-container .upper-container {
+        width: 100%;
+        margin: 20px 0;
+        align-items: center;
+        /* border: 2px solid black; */
+
+    }
+
+    .upper-container div {
+        width: 150px;
+        height: 70px;
+        /* border: 1px solid black; */
+    }
+
+    .upper-container div h3 {
+        font-size: 1rem;
+    }
+
+    .upper-container div i {
+        font-size: 2.5rem;
+        margin: 15px 0;
+        /* color: rgb(20, 153, 206); */
+    }
+
+    .upper-container div h4 {
+        font-size: 1.2rem;
+
+    }
+
+    .lower-container {
+        width: 100%;
+        overflow: auto;
+    }
+
+    .lower-container-header {
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-size: 1rem;
+
+    }
+
+    .lower-container .list-item {
+        width: 200px;
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+    .expense-item {
+        height: 1.2rem;
+    }
+
+    .showItem {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .left-container {
+        width: 100%;
+    }
+
+    .right-container {
+        width: 100%;
+    }
+}

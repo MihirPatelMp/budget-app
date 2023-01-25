@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&family=PT+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script src="https://kit.fontawesome.com/a2a1892a45.js" crossorigin="anonymous"></script>
+    <title>Budget App</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="primary-heading">
+            Budget App
+        </h1>
+        <div class="main-container">
+            <div class="left-container">
+                <div class="budget-feedback">Budget Feedback</div>
+                <form id="budget-container" class="budget-container">
+                    <label for="budget-input">Please Enter Your Budget</label>
+                    <input type="number" name="budget" id="budget-input" class="budget-input">
+                    <button type="submit" id="cal-btn">Calculate</button>
+                </form>
+                <div class="expense-feedback">Expense Feedback</div>
+                <form id="expense-container">
+                    <label for="expense-input">Please Enter Your Expense Title</label>
+                    <input type="text" name="expense" id="expense-input">
+                    <label for="amount-input">Please Enter Your Expense Amount</label>
+                    <input type="number" name="expense-amount" id="amount-input">
+                    <button type="submit" id="add-exp-btn">Add Expense</button>
+                </form>
+            </div>
+
+            <div class="right-container">
+                <div class="upper-container">
+                    <div class="box" id="budget-box">
+                        <h3>budget</h3>
+                        <i class="fa fa-money"></i>
+                        <h4><span>&dollar;</span> <span id="budget-amount">0</span></h4>
+                    </div>
+
+                    <div class="box" id="expense-box">
+                        <h3>expense</h3>
+                        <i class="fa fa-credit-card"></i>
+                        <h4><span>&dollar;</span> <span id="expense-amount">0</span></h4>
+                    </div>
+
+                    <div class="box" id="balance-box">
+                        <h3>balance</h3>
+                        <i class="fa fa-inr"></i>
+                        <h4 id="balance"><span>&dollar;</span> <span id="balance-amount">0</span></h4>
+                    </div>
+                </div>
+                <div class="lower-container" id="expense-list">
+                    <div class="lower-container-header">
+                        <h4 class="list-item">Expense Title</h4>
+                        <h4 class="list-item">Expense Value</h4>
+                        <h4 class="list-item"></h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
